@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body style="background-color: black; color: #f9f0f7;">
+    <center>
+        <h1>Sign Up Form</h1>
+    <form action="solution1.html" method="get">
+        <label for="first-name">First name: </label>
+        <input type="text" name="first-name" id="first-name" minlength="3" required><br><br>
+        <label for="surname">Last name: </label>
+        <input type="text" name="surname" id="surname" minlength="3" required><br><br>
+        <label for="email">Email-ID: </label>
+        <input type="email" name="email" id="email" minlength="3" required><br><br>
+        <label for="age">Age: </label>
+        <input type="number" name="age" id="age" min="14" max="100" required>
+        <label for="gender">   Gender: </label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option> required
+        </select><br><br>
+        <label for="password">Create password: </label>
+        <input type="password" name="password" id="password" required><br><br>
+        <label for="confirm password">Confirm password: </label>
+        <input type="password" name="confirm pssword" id="confirm password" required><br><br>
+       
+         <input type="checkbox" name="terms and conditions" id="terms and conditions" required>
+         <label for="terms and conditions">I agree to all the terms & conditions</label><br><br>
+         <input type="submit" value="Sign Up" style="background-color: crimson; color: aliceblue;">
+    </form>
+</center>
+</body>
+</html>
